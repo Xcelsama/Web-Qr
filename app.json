@@ -1,0 +1,22 @@
+{
+    "name": "Web-Qr",
+    "description": "I am star-Md Whatsapp Chuddy Buddy built in NodeJs to make experience better\n\t if Any Problem : https://wa.me/+2347045035241",
+    "logo": "https://i.ibb.co/s6bjyzw/p9179182-b-h10-ab.jpg",
+    "repository": "https://github.com/Xcelsama/Web-Qr",
+    "keywords": ["whatsappbot", "starMd", "star Md bot", "Star-Md", "starMdWhatsaooBot", "StarWaBot","StarMD","Star Md Whatsapp Bot","multi device"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "set session id conformation message",
+        "value": "╔════◇\n║ *『 WOW YOU CHOSE STAR-MD 』*\n║ _You completed first step to making Bot._\n╚════════════════════════╝\n╔═════◇\n║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』\n║ *Channel:* _https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m_\n║ *Owner:* _https://wa.me/2347045035241_\n║ *Note :*_Don't provide your SESSION_ID to_\n║ _anyone otherwise that can access chats_\n╚════════════════════════╝",
+        "required": false 
+      }
+    }   
+
+}
